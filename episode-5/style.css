@@ -1,0 +1,57 @@
+body,html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4 {
+    margin: 0;
+}
+
+.media {
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    border: 1px solid #00B1B4;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.media-left {
+    margin-right: 1em;
+}
+
+.media-content {
+    /**
+     *  0 by default. 
+     *  1 all your sorrounding space
+     *  2 twice your sorrounding space
+     *  ...
+     */
+    flex: 1;
+}
+
+.media-content form textarea{
+    width: 100%;
+    min-height: 100px;
+    padding: 0;
+}
+
+.media-content form {
+    display:flex;
+    flex-direction: column;
+}
+
+.media-content .media-content-buttons {
+    align-self: flex-end;
+}
