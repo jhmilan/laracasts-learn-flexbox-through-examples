@@ -1,0 +1,45 @@
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.columns {
+    display: flex;
+}
+
+.columns:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+.columns.is-multiline {
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid #cecece;
+}
+
+.column {
+    flex: 1;
+}
+
+.column.is-narrow {
+    flex: none;
+}
+
+.column.is-6 {
+    width: 50%;
+    flex: none;
+}
+
+.column.is-4 {
+    width: 33.3333%;
+    flex: none;
+}
+
+.column.is-2 {
+    width: 16.66667%;
+    flex: none;
+}
