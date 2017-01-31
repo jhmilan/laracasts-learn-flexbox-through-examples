@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #00b1b3;
+    font-family: sans-serif;
+
+    /**
+     * When using Flex is important to thing in terms of 'main axis' and 'cross axis'.
+     * We'll study 'flex-direction' to change this
+     */
+    display: flex;
+    align-items: flex-end; /* or center, flex-start,... */
+    justify-content: flex-end; /* or center, flex-start,... */
+}
